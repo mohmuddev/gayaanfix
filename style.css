@@ -17,7 +17,7 @@ body {
 .sidebar {
     width: 250px;
     background-color: #fafafa;
-    color: #fff;
+    color: #000000;
     padding: 20px;
 }
 
@@ -33,6 +33,7 @@ body {
     color: #010101;
     text-decoration: none;
     transition: color 0.3s ease;
+    font-size: 12px;
 }
 
 
@@ -75,7 +76,8 @@ section h2 {
 .scrollup-btn {
     position: fixed;
     bottom: 20px;
-    right: 20px; /* Adjusted to the right */
+    right: 20px;
+    /* Adjusted to the right */
     background-color: #ff076a;
     color: #fff;
     width: 40px;
@@ -91,4 +93,7 @@ section h2 {
     background-color: #ff076a;
 }
 
-
+.wistia_embed {
+    display: flex !important;
+    justify-content: center !important;
+}
