@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #fafafa;
+    color: #fff;
+    padding: 20px;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation ul li {
+    margin-bottom: 10px;
+}
+
+.navigation ul li a {
+    color: #010101;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 1px solid #dee2e6;
+}
+
+
+#section1 {
+    margin-top: 100px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #1f1f1f;
+}
+
+
+.navigation ul li a:hover {
+    color: #ff076a;
+    /* Active and hover color */
+}
+
+
+.main-header {
+    color: #ff076a;
+}
+
+.scrollup-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; /* Adjusted to the right */
+    background-color: #ff076a;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.scrollup-btn:hover {
+    background-color: #ff076a;
+}
+
+
