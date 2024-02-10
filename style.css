@@ -24,6 +24,10 @@ body {
 .navigation ul {
     list-style: none;
 }
+.navigation h1 {
+    margin-bottom: 40px;
+}
+
 
 .navigation ul li {
     margin-bottom: 10px;
